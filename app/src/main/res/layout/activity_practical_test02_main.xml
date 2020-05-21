@@ -33,6 +33,7 @@
 
         </ScrollView>
 
+
         <ScrollView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -74,6 +75,13 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:hint="Port"/>
+
+            <EditText
+                android:id="@+id/server_adresa_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Adresa"/>
+
 
             <TextView
                 android:layout_width="match_parent"
@@ -133,6 +141,20 @@
         android:id="@+id/poll_buton"
         android:layout_gravity="center"
         android:text="Verifica alarma"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Raspuns server"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/raspuns_server"
+        android:text=""/>
+
 
 
 </LinearLayout>
